@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.count-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head-count {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.text-count {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+
+.increase-btn {
+  padding: 12px 30px;
+  border-radius: 5px;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  width: 200px;
+  border: none;
+  /* border: 2px solid #1e293b; */
+}
+
+.disclaimer {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
